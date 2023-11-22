@@ -1,7 +1,8 @@
-import { Header } from "./Components/Header/index.jsx";
-import { PageTitle } from "./Components/PageTitle/index.jsx";
-import { SecondaryHeader } from "./Components/SecondaryHeader/index.jsx";
 import "./globals.css";
+import { Header } from "./Components/Header/index.jsx";
+import { SecondaryHeader } from "./Components/SecondaryHeader/index.jsx";
+import { PageTitle } from "./Components/PageTitle/index.jsx";
+import { PurchaseConfirmationSteps } from "./Components/PurchaseConfirmationSteps/index.jsx";
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         title="Wait ! Your Order In Progress"
         subtitle="Lorem Ipsum Dolor Sit Amet, Consectetur Adipicsing"
       />
+      <PurchaseConfirmationSteps 
+        step1="Step 1 : Cart Review" 
+        step2="Step 2 : Checkout"
+        step3="Step 3 : Special Offer"
+        step4="Step 4 : Confirmation"
+        />
     </>
   );
 }
