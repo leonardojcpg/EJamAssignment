@@ -1,0 +1,23 @@
+.secondaryHeader-container {
+  display: flex;
+  padding: 1.875rem 7.9375rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.clarifion-logo img {
+  width: 12rem;
+  height: auto;
+}
+
+.antivirus-logo {
+  display: flex;
+  align-items: center;
+}
+
+.antivirus-logo img {
+  width: 6.25rem;
+  height: auto;
+  margin-right: 0.625rem;
+}
