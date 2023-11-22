@@ -1,33 +1,33 @@
 .step-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  justify-content: space-around;
 }
 
 .step {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
 }
 
 .step .greenCircle img {
-    width: 2.5rem; 
-    height: 2.5rem; 
-    fill: #85BF55;
-    stroke-width: .125rem;
-    stroke: #85BF55;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #85bf55;
+  stroke-width: 0.125rem;
+  stroke: #85bf55;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .step .stepTitle span {
-    color: #000;
-    font-family: 'Manrope';
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-    text-transform: capitalize;
+  color: #000;
+  font-family: "Manrope";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: capitalize;
 }
