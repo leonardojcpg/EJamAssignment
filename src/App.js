@@ -1,4 +1,5 @@
 import { Header } from "./Components/Header/index.jsx";
+import { PageTitle } from "./Components/PageTitle/index.jsx";
 import { SecondaryHeader } from "./Components/SecondaryHeader/index.jsx";
 import "./globals.css";
 
@@ -12,6 +13,10 @@ function App() {
         infoTitleD="100% money back guarantee"
       />
       <SecondaryHeader />
+      <PageTitle
+        title="Wait ! Your Order In Progress"
+        subtitle="Lorem Ipsum Dolor Sit Amet, Consectetur Adipicsing"
+      />
     </>
   );
 }
