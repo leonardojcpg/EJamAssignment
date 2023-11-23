@@ -9,7 +9,10 @@ export const Announcement = () => {
         <LeftSideAnnouncement />
       </div>
       <div className="right-container">
-        <RightSideAnnouncement />
+        <RightSideAnnouncement 
+        ratingProductTitle="Clarifion Air Ionizer"
+        ratingProductDescription="Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple."
+        />
       </div>
     </div>
   );
