@@ -1,0 +1,9 @@
+.leftImgContent {
+    padding: 2.5rem 2.5rem;
+}
+
+.leftImgContent img {
+    width: 35.9375rem;
+    height: 36.9375rem;
+    flex-shrink: 0;
+}

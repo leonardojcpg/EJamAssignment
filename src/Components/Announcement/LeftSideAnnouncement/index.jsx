@@ -1,42 +1,15 @@
 import "./styles.css";
-import imgAnnoucement from "./assets/imgAnnoucement.svg";
-import stars from "./assets/Stars.svg";
-import verifyLogo from "./assets/verifyLogo.svg";
-import profileImg from "./assets/profileImg.svg";
+import { ImgAnnouncement } from "../../ImgAnnouncement/index.jsx";
+import { UserComment } from "../../UserComment/index.jsx";
 
-export const LeftSideAnnouncement = ({
-  profileName,
-  verifiedStatusProfile,
-  comentText,
-}) => {
+export const LeftSideAnnouncement = () => {
   return (
     <div className="annoucement-container">
-      <div className="leftImgContent">
-        <img src={imgAnnoucement} alt="" />
-      </div>
-
-      <div className="leftComent">
-        <div className="titleComent">
-          <div className="profileImg">
-            <img src={profileImg} alt="" />
-          </div>
-
-          <div className="comentStats">
-            <div className="comentRating">
-              <img src={stars} alt="" />
-            </div>
-
-            <div className="profileName">
-              <span id="profileName">{profileName}</span>
-              <img src={verifyLogo} alt="" />
-              <span>{verifiedStatusProfile}</span>
-            </div>
-          </div>
-        </div>
-        <div className="comentText">
-          <span>{comentText}</span>
-        </div>
-      </div>
+      <ImgAnnouncement />
+      <UserComment 
+        profileName="Ken T." 
+        verifiedStatusProfile="Verified Customer"
+        comentText="“As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”"/>
     </div>
   );
 };
