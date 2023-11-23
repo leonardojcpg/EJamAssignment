@@ -1,9 +1,10 @@
 .secondaryHeader-container {
   display: flex;
-  padding: 1.875rem 7.9375rem;
+  width: 1245px;
+  padding: 30px 0px;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
 }
 
 .clarifion-logo img {
