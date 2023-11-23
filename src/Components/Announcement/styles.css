@@ -1,9 +1,9 @@
 .announcements-container {
   display: flex;
-  width: 1245px;
-  height: 879px;
-  border-radius: 10px;
-  background: #FAFAFA;
+  width: 77.8125rem;
+  height: 54.9375rem;
+  border-radius: .625rem;
+  background: #fafafa;
   margin: 0 auto;
 }
 

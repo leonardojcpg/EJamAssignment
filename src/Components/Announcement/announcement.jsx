@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./styles.css";
 import { LeftSideAnnouncement } from "./LeftSideAnnouncement";
 import { RightSideAnnouncement } from "./RightSideAnnouncement";
 
@@ -9,9 +9,11 @@ export const Announcement = () => {
         <LeftSideAnnouncement />
       </div>
       <div className="right-container">
-        <RightSideAnnouncement 
-        ratingProductTitle="Clarifion Air Ionizer"
-        ratingProductDescription="Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple."
+        <RightSideAnnouncement
+          dontWantMessage="no thanks, i don't want this."
+          warrantyMessage="If you are not completely thrilled with your Clarifion - We have a 30
+        day satisfaction guarantee. Please refer to our return policy at the
+        bottom of the page for more details. Happy Shopping!"
         />
       </div>
     </div>

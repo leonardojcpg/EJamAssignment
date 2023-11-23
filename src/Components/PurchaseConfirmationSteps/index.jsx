@@ -14,7 +14,7 @@ export const PurchaseConfirmationSteps = ({ step1, step2, step3, step4 }) => {
           <span>{step1}</span>
         </div>
       </div>
-
+      
       <div className="step">
         <div className="greenCircle">
           <img src={greenCircle} alt="" />

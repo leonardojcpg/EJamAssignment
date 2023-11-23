@@ -1,0 +1,26 @@
+.button-priceAnnouncement button {
+  width: 33.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1875rem;
+  border: none;
+  background: #59ae43;
+  border-radius: 3.125rem;
+  padding: 1rem 4rem;
+  cursor: pointer;
+}
+
+.button-priceAnnouncement span {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.button-priceAnnouncement button img {
+  width: 1rem;
+}

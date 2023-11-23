@@ -1,5 +1,5 @@
 import "./styles.css";
-import imgAnnoucement from "./assets/imgAnnoucement.svg"
+import imgAnnoucement from "./assets/imgAnnoucement.svg";
 
 export const ImgAnnouncement = () => {
   return (

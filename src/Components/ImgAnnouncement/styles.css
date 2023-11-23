@@ -1,11 +1,11 @@
 .leftImgContent {
-    padding: 40px 40px;
-    width: 615px;
-    height: 591px;
+  padding: 2.5rem 2.5rem;
+  width: 38.4375rem;
+  height: 36.9375rem;
 }
 
 .leftImgContent img {
-    width: 575px;
-    height: 591px;
-    flex-shrink: 0;
+  width: 35.9375rem;
+  height: 36.9375rem;
+  flex-shrink: 0;
 }
