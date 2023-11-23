@@ -1,11 +1,18 @@
+.leftComent-container{
+    display: flex;
+    width: 615px;
+    height: 186px;
+    margin: 64px 0;
+}
 
-.leftComent{
-    margin: -1.25rem 2.5rem;
+
+.leftComent {
     border-radius: .625rem;
     background-color: #fff;
     width: 35.9375rem;
     height: 11.625rem;
-}
+    margin: 0 2.3125rem;
+  }
 
 
 .profileImg img{

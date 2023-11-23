@@ -9,7 +9,7 @@ export const UserComment = ({
   comentText,
 }) => {
   return (
-    <>
+    <div className="leftComent-container">
       <div className="leftComent">
         <div className="titleComent">
           <div className="profileImg">
@@ -30,6 +30,6 @@ export const UserComment = ({
           <span>{comentText}</span>
         </div>
       </div>
-    </>
+    </div>
   );
 };

@@ -3,7 +3,7 @@ import { Header } from "./Components/Header/index.jsx";
 import { SecondaryHeader } from "./Components/SecondaryHeader/index.jsx";
 import { PageTitle } from "./Components/PageTitle/index.jsx";
 import { PurchaseConfirmationSteps } from "./Components/PurchaseConfirmationSteps/index.jsx";
-import { LeftSideAnnouncement } from "./Components/Announcement/LeftSideAnnouncement/index.jsx";
+import { Announcement } from "./Components/Announcement/announcement.jsx";
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
         step3="Step 3 : Special Offer"
         step4="Step 4 : Confirmation"
         />
-        <LeftSideAnnouncement />
+      <Announcement />
+
     </>
   );
 }
