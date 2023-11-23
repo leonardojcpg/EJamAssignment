@@ -3,7 +3,7 @@ import { Header } from "./Components/Header/index.jsx";
 import { SecondaryHeader } from "./Components/SecondaryHeader/index.jsx";
 import { PageTitle } from "./Components/PageTitle/index.jsx";
 import { PurchaseConfirmationSteps } from "./Components/PurchaseConfirmationSteps/index.jsx";
-import { Annoucement } from "./Components/Announcement/index.jsx";
+import { LeftSideAnnouncement } from "./Components/Announcement/LeftSideAnnouncement/index.jsx";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         step3="Step 3 : Special Offer"
         step4="Step 4 : Confirmation"
         />
-        <Annoucement 
+        <LeftSideAnnouncement 
         profileName="Ken T." 
         verifiedStatusProfile="Verified Customer"
         comentText="“As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”"

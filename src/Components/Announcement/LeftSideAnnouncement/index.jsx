@@ -4,7 +4,7 @@ import stars from "./assets/Stars.svg";
 import verifyLogo from "./assets/verifyLogo.svg";
 import profileImg from "./assets/profileImg.svg";
 
-export const Annoucement = ({
+export const LeftSideAnnouncement = ({
   profileName,
   verifiedStatusProfile,
   comentText,
