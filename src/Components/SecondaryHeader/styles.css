@@ -1,3 +1,4 @@
+
 .secondaryHeader-container {
   display: flex;
   width: 77.8125rem;
@@ -20,5 +21,33 @@
 .antivirus-logo img {
   width: 6.25rem;
   height: auto;
-  margin-right: 0.625rem;
+  margin-right: .625rem;
 }
+
+@media (max-width: 767px) {
+  .secondaryHeader-container {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: normal;
+  }
+
+  .clarifion-logo img {
+    width: 106px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-bottom: 1rem;
+  }
+
+  .antivirus-logo {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .antivirus-logo img {
+    width: 44px;
+    height: 16px;
+  }
+}
+
