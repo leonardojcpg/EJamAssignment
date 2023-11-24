@@ -1,0 +1,61 @@
+.footer-container {
+  width: 100%;
+  height: 40px;
+  margin-top: 60px;
+  display: inline-flex;
+  padding: 24px 119px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 592px;
+  background-color: #252f3d;
+  white-space: nowrap;
+}
+
+.copyright-container {
+  width: 401px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.copyright span {
+  width: 9.375rem;
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.email span {
+  color: #fff;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.secure-container {
+  width: 261px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 16px;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+.secure-container img {
+  color: #fff;
+  width: 16px;
+  height: 16px;
+}
