@@ -24,30 +24,30 @@
   margin-right: .625rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .secondaryHeader-container {
     display: flex;
-    width: 320px;
+    width: 20rem;
     justify-content: space-between;
     align-items: normal;
   }
 
   .clarifion-logo img {
-    width: 106px;
-    height: 20px;
+    width: 6.625rem;
+    height: 1.25rem;
     flex-shrink: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
   }
 
   .antivirus-logo {
     display: flex;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
   }
 
   .antivirus-logo img {
-    width: 44px;
-    height: 16px;
+    width: 2.75rem;
+    height: 1rem;
   }
 }
 
