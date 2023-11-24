@@ -5,8 +5,11 @@ import { PageTitle } from "./Components/PageTitle/index.jsx";
 import { PurchaseConfirmationSteps } from "./Components/PurchaseConfirmationSteps/index.jsx";
 import { Announcement } from "./Components/Announcement/announcement.jsx";
 import { Footer } from "./Components/Footer/index.jsx";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+
   return (
     <div className="app">
       <Header
@@ -21,10 +24,11 @@ function App() {
         subtitle="Lorem Ipsum Dolor Sit Amet, Consectetur Adipicsing"
       />
       <PurchaseConfirmationSteps
-        step1="Step 1 : Cart Review"
-        step2="Step 2 : Checkout"
-        step3="Step 3 : Special Offer"
-        step4="Step 4 : Confirmation"
+        step1="Cart Review"
+        step2="Checkout"
+        step3="Special Offer"
+        step4="Confirmation"
+        isMobile={isMobile}
       />
       <Announcement />
       <Footer
