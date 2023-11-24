@@ -190,19 +190,19 @@
   line-height: 140%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
   .titleAnnouncement{
     display: flex;
-    width: 320px;
+    width: 20rem;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
   }
 
   .titleAnnouncement span{
     color: #2C7EF8;
     text-align: center;
     font-family: 'Manrope';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -212,7 +212,7 @@
   .titleAnnouncement p{
     color: #000;
     font-family: 'Manrope';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -223,24 +223,24 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
     align-self: stretch;
   }
 
   .priceAnnouncement img {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     flex-shrink: 0;
   }
 
   .rating-priceAnnoucement{
     display: flex;
-    width: 320px;
-    margin: 10px auto;
+    width: 20rem;
+    margin: .625rem auto;
   }
 
   .rating-priceAnnoucement-title{
-    width: 224px;
+    width: 14rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,10 +248,10 @@
 
   .rating-priceAnnoucement-title span{
     white-space: nowrap;
-    width: 121px;
+    width: 7.5625rem;
     color: #000;
     font-family: 'Manrope';
-    font-size: 14px;
+    font-size: .875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -262,7 +262,7 @@
     margin: 0 auto;
     color: #969696;
     font-family: 'Manrope';
-    font-size: 10px;
+    font-size: .625rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -274,7 +274,7 @@
     margin: 0;
     color: #2C7EF8;
     font-family: 'Manrope';
-    font-size: 14px;
+    font-size: .875rem;
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
@@ -282,35 +282,35 @@
   }
 
   .rating img{
-    width: 68px;
-    height: 12px;
+    width: 4.25rem;
+    height: .75rem;
   }
 
   .rating-priceAnnoucement-leftInStock{
-    width: 106px;
+    width: 6.625rem;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
   }
 
   .rating-priceAnnoucement-leftInStock img{
-    width: 12px;
-    height: 12px;
+    width: .75rem;
+    height: .75rem;
   }
 
   .rating-priceAnnoucement-leftInStock span {
     color: #37465A;
     font-family: 'Manrope';
-    font-size: 12px;
+    font-size: .75rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
   }
 
   .rating-priceAnnoucement-description{
-    height: 26px;
-    width: 326px;
-    margin: 10px -90px;
+    height: 1.625rem;
+    width: 20.375rem;
+    margin: .625rem -5.625rem;
     align-items: center;
     text-align: center;
   }
@@ -319,7 +319,7 @@
     color: #4D5254;
     text-align: center;
     font-family: 'Manrope';
-    font-size: 12px;
+    font-size: .75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -329,21 +329,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
   }
 
   .description img {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     margin: auto;
   }
 
   .description span{
     white-space: nowrap;
-    width: 274px;
+    width: 17.125rem;
     color: #4D5254;
     font-family: 'Manrope';
-    font-size: 12px;
+    font-size: .75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
@@ -351,32 +351,32 @@
 
   .descount {
     display: flex;
-    gap: 16px; 
-    width: 340px;
+    gap: 1rem; 
+    width: 21.25rem;
     flex-direction: row;
     justify-content: flex-start;
   }
 
   .descountImg img{
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .descount h4{
-    width: 248px;
+    width: 15.5rem;
     color: #000;
     font-family: 'Manrope';
-    font-size: 14px;
+    font-size: .875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
   }
 
   .descount span {
-    width: 248px;
+    width: 15.5rem;
     color: #2C7EF8;
     font-family: 'Manrope';
-    font-size: 14px;
+    font-size: .875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;

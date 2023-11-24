@@ -25,21 +25,21 @@
   width: 1rem;
 }
 
-@media (max-width: 767px){
+@media (max-width: 47.9375rem){
   .button-priceAnnouncement button {
-    width: 340px;
-    height: 51px;
+    width: 21.25rem;
+    height: 3.1875rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: .625rem;
   }
 
   .button-priceAnnouncement span{
     color: #FFF;
     font-family: 'Manrope';
-    font-size: 14px;
+    font-size: .875rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
