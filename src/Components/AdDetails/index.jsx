@@ -63,7 +63,7 @@ export const AdDetails = ({ ratingProductTitle, ratingProductDescription }) => {
           <img src={descountImg} alt="" />
         </div>
         <h4>
-          Save <span>53%</span>and get <span>6 extra Clarifision</span> for only{" "}
+          Save <span>53% </span>and get <span>6 extra Clarifision</span> for only{" "}
           <span>$14 Each</span>.
         </h4>
       </div>

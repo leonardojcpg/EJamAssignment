@@ -11,3 +11,12 @@
 .right-container {
   flex: 1;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 100%;
+  
+}
+

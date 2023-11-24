@@ -35,8 +35,9 @@
 
 @media (max-width: 767px) {
   .step-container{
+    margin-bottom: 0;
     display: flex;
-    width: 320px;
+    width: 20rem;
     justify-content: space-between;
     align-items: center;
   }
@@ -46,12 +47,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: .5rem;
   }
 
   .step .greenCircle img{
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     flex-shrink: 0;
     fill: #85BF55;
     stroke-width: 2px;
@@ -62,7 +63,7 @@
     text-align: center;
     color: #000;
     font-family: 'Manrope';
-    font-size: 12px;
+    font-size: .75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;

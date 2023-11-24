@@ -24,3 +24,7 @@
 .button-priceAnnouncement button img {
   width: 1rem;
 }
+
+@media (max-width: 767px){
+
+}
