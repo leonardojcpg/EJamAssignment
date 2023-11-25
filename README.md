@@ -1,5 +1,8 @@
 # Ejam-Assignment
 
+## Deploy:
+https://ejam-assignment-brown.vercel.app
+
 ## About Project
 
 This project was developed as a test for a full stack developer position.
