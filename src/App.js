@@ -4,7 +4,7 @@ import { SecondaryHeader } from "./Components/SecondaryHeader/index.jsx";
 import { PageTitle } from "./Components/PageTitle/index.jsx";
 import { PurchaseConfirmationSteps } from "./Components/PurchaseConfirmationSteps/index.jsx";
 import { Announcement } from "./Components/Announcement/announcement.jsx";
-//import { Footer } from "./Components/Footer/index.jsx";
+import { Footer } from "./Components/Footer/index.jsx";
 import { useMediaQuery } from "react-responsive";
 
 function App() {
@@ -31,11 +31,11 @@ function App() {
         isMobile={isMobile}
       />
       <Announcement showLeftSide={!isMobile} />
-{/*       <Footer
+       <Footer
         copywright="Copywright (C) 2023"
         email="clarifionsupport@clarifion.com"
         secure="Secure 256-bit SSL encryption."
-      /> */}
+      /> 
     </div>
   );
 }

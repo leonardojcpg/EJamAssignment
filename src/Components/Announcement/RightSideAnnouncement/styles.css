@@ -56,4 +56,43 @@
     align-items: flex-start;
       
   } 
+
+  .dontWantMessage{
+    width: 179px;
+    color: #F82C2C;
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    white-space: nowrap;
+    justify-content: center;
+    margin: 0 30px;
+  }
+
+  .warrantyMessage{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    margin: 10px;
+  }
+
+  .warrantyMessage img{
+    width: 48px;
+    height: 48px;
+  };
+
+  .warrantyMessage span{
+    width: 256px;
+    height: 77px;
+    color: #4D5254;
+    font-family: 'Manrope';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
 }

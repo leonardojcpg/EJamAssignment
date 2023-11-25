@@ -59,3 +59,32 @@
   width: 1rem;
   height: 1rem;
 }
+
+@media(max-width: 767px){
+  .footer-container{
+    margin: 750px auto;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: 62px;
+  }
+
+  .footer-container span{
+    color: #FFF;
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+    text-transform: capitalize;
+  }
+
+  .copyright-container{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+}
