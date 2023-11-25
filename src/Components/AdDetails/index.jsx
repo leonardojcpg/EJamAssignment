@@ -8,18 +8,18 @@ import descountImg from "./assets/descountIcon.svg"
 export const AdDetails = ({ ratingProductTitle, ratingProductDescription }) => {
   return (
     <>
-      <div className="titleAnnouncement">
+      <div className="title-announcement">
         <p>
           <span>ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For
           Only <span>$14 Each</span> ($84.00 Total!)
         </p>
       </div>
-      <div className="priceAnnouncement">
-        <div className="img-priceAnnouncement">
+      <div className="price-announcement">
+        <div className="img-price-announcement">
           <img src={clarifionImg} alt="" />
         </div>
-        <div className="rating-priceAnnoucement">
-          <div className="rating-priceAnnoucement-title">
+        <div className="rating-price-annoucement">
+          <div className="rating-price-annoucement-title">
             <span>{ratingProductTitle}</span>
             <p>$180</p>
             <h3>$84</h3>
@@ -27,31 +27,31 @@ export const AdDetails = ({ ratingProductTitle, ratingProductDescription }) => {
           <div className="rating">
             <img src={stars} alt="" />
           </div>
-          <div className="rating-priceAnnoucement-leftInStock">
+          <div className="rating-price-annoucement-leftinstock">
             <img src={selectBlueIcon} alt="" />
             <span>12 left in stock</span>
           </div>
-          <div className="rating-priceAnnoucement-description">
+          <div className="rating-price-annoucement-description">
             <span>{ratingProductDescription}</span>
           </div>
         </div>
       </div>
       <div className="description">
-        <div className="descriptionMessage">
+        <div className="description-message">
           <img src={blueTick} alt="" />
           <span>
             Negative Ion Technology map help{" "}
             <strong>help with allergens.</strong>
           </span>
         </div>
-        <div className="descriptionMessage">
+        <div className="description-message">
           <img src={blueTick} alt="" />
           <span>
             Designed for <strong>air rejuvenation.</strong>
           </span>
         </div>
 
-        <div className="descriptionMessage">
+        <div className="description-message">
           <img src={blueTick} alt="" />
           <span>
             <strong>Perfect for every room</strong> in all types of places.
@@ -59,7 +59,7 @@ export const AdDetails = ({ ratingProductTitle, ratingProductDescription }) => {
         </div>
       </div>
       <div className="descount">
-        <div className="descountImg">
+        <div className="descount-img">
           <img src={descountImg} alt="" />
         </div>
         <h4>

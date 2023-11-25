@@ -6,11 +6,11 @@ import { PurchaseInfo } from "../../PurchaseInfo";
 import { useMediaQuery } from "react-responsive";
 import { PurchaseInfoResponsive } from "../../PurchaseInfoResponsive";
 
-export const RightSideAnnouncement = ({ dontWantMessage, warrantyMessage }) => {
+export const RightSideAnnouncement = ({ dontWantMessage }) => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   return (
-    <div className="rightAnnouncement-container">
+    <div className="right-announcement-container">
       <AdDetails
         ratingProductTitle="Clarifion Air Ionizer"
         ratingProductDescription="Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple."
@@ -27,14 +27,21 @@ export const RightSideAnnouncement = ({ dontWantMessage, warrantyMessage }) => {
           purchaseInfoB="Secure 256-bit SSL encryption."
         />
       )}
-      <div className="dontWantMessage">
-        <span>{dontWantMessage}</span>
+      <div className="dont-want-message">
+        <a href="/">
+          <span>{dontWantMessage}</span>
+        </a>
       </div>
-      <div className="warrantyMessage">
+      <div className="warranty-message">
         <div className="guarantee">
           <img src={guarantee} alt="" />
         </div>
-        <span>{warrantyMessage}</span>
+        <span>
+          If you are not completely thrilled with your Clarifion - We have a{" "}
+          <strong>30 day satisfaction guarantee.</strong> Please refer to our
+          return policy at the bottom of the page for more details. Happy
+          Shopping!
+        </span>
       </div>
     </div>
   );

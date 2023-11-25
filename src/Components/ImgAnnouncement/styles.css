@@ -1,10 +1,10 @@
-.leftImgContent {
+.left-img-content {
   padding: 2.5rem 2.5rem;
   width: 38.4375rem;
   height: 36.9375rem;
 }
 
-.leftImgContent img {
+.left-img-content img {
   width: 35.9375rem;
   height: 36.9375rem;
   flex-shrink: 0;

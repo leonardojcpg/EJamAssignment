@@ -9,24 +9,24 @@ export const UserComment = ({
   comentText,
 }) => {
   return (
-    <div className="leftComent-container">
-      <div className="leftComent">
-        <div className="titleComent">
-          <div className="profileImg">
+    <div className="left-coment-container">
+      <div className="left-coment">
+        <div className="title-coment">
+          <div className="profile-img">
             <img src={profileImg} alt="" />
           </div>
-          <div className="comentStats">
-            <div className="comentRating">
+          <div className="coment-stats">
+            <div className="coment-rating">
               <img src={stars} alt="" />
             </div>
-            <div className="profileName">
-              <span id="profileName">{profileName}</span>
+            <div className="profile-name">
+              <span id="profile-name">{profileName}</span>
               <img src={verifyLogo} alt="" />
               <span>{verifiedStatusProfile}</span>
             </div>
           </div>
         </div>
-        <div className="comentText">
+        <div className="coment-text">
           <span>{comentText}</span>
         </div>
       </div>

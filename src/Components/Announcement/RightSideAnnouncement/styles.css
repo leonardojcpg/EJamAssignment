@@ -1,4 +1,4 @@
-.rightAnnouncement-container {
+.right-announcement-container {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -7,7 +7,7 @@
   margin: 2.5rem 2.5rem;
 }
 
-.dontWantMessage {
+.dont-want-message {
   margin: .625rem 0;
   width: 33.875rem;
   height: 1.5625rem;
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.dontWantMessage span {
+.dont-want-message span {
   color: #f82c2c;
   font-family: "Manrope";
   font-size: 1.125rem;
@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 
-.warrantyMessage {
+.warranty-message {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -39,7 +39,7 @@
   height: 5.5rem;
 }
 
-.warrantyMessage span {
+.warranty-message span {
   color: #4d5254;
   font-family: "Manrope";
   font-size: 1rem;
@@ -49,7 +49,7 @@
 }
 
 @media(max-width: 47.5rem){
-  .rightAnnouncement-container{
+  .right-announcement-container{
     display: flex;
     width: 20rem;
     flex-direction: column;
@@ -57,7 +57,7 @@
       
   } 
 
-  .dontWantMessage{
+  .dont-want-message{
     width: 11.1875rem;
     color: #F82C2C;
     font-family: 'Manrope';
@@ -72,7 +72,7 @@
     margin: 1rem 1.875rem;
   }
 
-  .warrantyMessage{
+  .warranty-message{
     display: flex;
     align-items: flex-start;
     gap: 16px;
@@ -80,12 +80,12 @@
     margin: 16px auto;
   }
 
-  .warrantyMessage img{
+  .warranty-message img{
     width: 3rem;
     height: 3rem;
   };
 
-  .warrantyMessage span{
+  .warranty-message span{
     width: 16rem;
     height: 4.8125rem;
     color: #4D5254;

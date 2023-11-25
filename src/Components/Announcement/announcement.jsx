@@ -9,26 +9,21 @@ export const Announcement = ({ showLeftSide }) => {
   return (
     <>
       {isMobile ? (
-          <div className="centered-container">
-            <RightSideAnnouncement
-              dontWantMessage="no thanks, i don't want this."
-              warrantyMessage="If you are not completely thrilled with your Clarifion - We have a 30
+        <div className="centered-container">
+          <RightSideAnnouncement
+            dontWantMessage="no thanks, i don't want this."
+            warrantyMessage="If you are not completely thrilled with your Clarifion - We have a 30
               day satisfaction guarantee. Please refer to our return policy at the
               bottom of the page for more details. Happy Shopping!"
-            />
-          </div>
+          />
+        </div>
       ) : (
         <div className="announcements-container">
           <div className="left-container">
             {showLeftSide && <LeftSideAnnouncement />}
           </div>
           <div className="right-container">
-            <RightSideAnnouncement
-              dontWantMessage="no thanks, i don't want this."
-              warrantyMessage="If you are not completely thrilled with your Clarifion - We have a 30
-              day satisfaction guarantee. Please refer to our return policy at the
-              bottom of the page for more details. Happy Shopping!"
-            />
+            <RightSideAnnouncement dontWantMessage="no thanks, i don't want this." />
           </div>
         </div>
       )}

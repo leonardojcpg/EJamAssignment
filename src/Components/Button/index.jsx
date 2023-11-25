@@ -3,7 +3,7 @@ import "./styles.css";
 
 export const Button = ({ buttonText }) => {
   return (
-    <div className="button-priceAnnouncement">
+    <div className="button-price-announcement">
       <button>
         <span>{buttonText}</span>
         <img src={arrow} alt="" />

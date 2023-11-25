@@ -1,4 +1,4 @@
-.button-priceAnnouncement button {
+.button-price-announcement button {
   width: 33.875rem;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.button-priceAnnouncement span {
+.button-price-announcement span {
   color: #fff;
   font-family: "Manrope";
   font-size: 1.25rem;
@@ -21,12 +21,12 @@
   text-transform: uppercase;
 }
 
-.button-priceAnnouncement button img {
+.button-price-announcement button img {
   width: 1rem;
 }
 
 @media (max-width: 47.9375rem){
-  .button-priceAnnouncement button {
+  .button-price-announcement button {
     width: 21.25rem;
     height: 3.1875rem;
     display: flex;
@@ -36,7 +36,7 @@
     gap: .625rem;
   }
 
-  .button-priceAnnouncement span{
+  .button-price-announcement span{
     color: #FFF;
     font-family: 'Manrope';
     font-size: .875rem;

@@ -1,5 +1,5 @@
 
-.secondaryHeader-container {
+.secondary-header-container {
   display: flex;
   width: 77.8125rem;
   padding: 1.875rem 0rem;
@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 47.9375rem) {
-  .secondaryHeader-container {
+  .secondary-header-container {
     display: flex;
     width: 20rem;
     justify-content: space-between;

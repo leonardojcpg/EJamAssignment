@@ -1,4 +1,4 @@
-.purchaseInfo {
+.purchase-info{
   margin: .75rem 0;
   display: flex;
   padding: .5rem 1rem;
@@ -18,12 +18,12 @@
   align-items: center;
 }
 
-.purchaseInfo img {
+.purchase-info img {
   width: .75rem;
   height: .75rem;
 }
 
-.purchaseInfo span {
+.purchase-info span {
   color: #4d5254;
   font-family: "Manrope";
   font-size: .625rem;

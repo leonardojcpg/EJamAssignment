@@ -6,7 +6,7 @@ import cards from "./assets/cards.svg";
 export const PurchaseInfo = ({ purchaseInfoA, purchaseInfoB }) => {
   return (
     <>
-      <div className="purchaseInfo">
+      <div className="purchase-info">
         <span>{purchaseInfoA}</span>
         <div className="line">
           <img src={line} alt="" />
