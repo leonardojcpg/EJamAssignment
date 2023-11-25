@@ -194,8 +194,10 @@
   .titleAnnouncement{
     display: flex;
     width: 20rem;
+    height: 85px;
     align-items: center;
     gap: 1rem;
+    margin: .625rem auto;
   }
 
   .titleAnnouncement span{

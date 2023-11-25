@@ -60,31 +60,40 @@
   height: 1rem;
 }
 
-@media(max-width: 767px){
+@media(max-width: 47.9375rem){
   .footer-container{
-    margin: 750px auto;
+    margin: 46.875rem auto;
     display: flex;
     width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
-    height: 62px;
+    gap: 1rem;
+    height: 6.375rem;
   }
 
   .footer-container span{
     color: #FFF;
     font-family: 'Manrope';
-    font-size: 12px;
+    font-size: .75rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 16.8px */
+    line-height: 140%; /* 1.05rem */
     text-transform: capitalize;
   }
 
   .copyright-container{
-    width: 350px;
+    width: 21.875rem;
     justify-content: center;
     align-items: center;
+  }
+
+  .secure-container {
+    align-items: center;  
+    margin: 0 auto;
+}
+
+  .secure-container img{
+    margin: 0 auto;
   }
 }

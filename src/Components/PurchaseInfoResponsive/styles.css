@@ -1,29 +1,29 @@
 .purchase-info-responsive {
-    width: 321px;
-    height: 71px;
-    margin: 10px;
+    width: 20.0625rem;
+    height: 4.4375rem;
+    margin: .625rem;
     display: flex;
-    padding: 8px 16px;
+    padding: .5rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
-    border: 1px solid #CFCFCF;
+    border-radius: .25rem;
+    border: .0625rem solid #CFCFCF;
 }
 
 .up-side{
-    width: 289px;
+    width: 18.0625rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: .75rem;
     white-space: nowrap;
 }
 
 .up-side span{
     color: #4D5254;
     font-family: 'Manrope';
-    font-size: 12px;
+    font-size: .75rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -31,28 +31,28 @@
 }
 
 .line-2{
-    width: 1px;
-    height: 14px;
+    width: .0625rem;
+    height: .875rem;
 }
 
 .lock-2 img{
-    width: 12px;
-    height: 12px;
+    width: .75rem;
+    height: .75rem;
     
 }
 
 .line-3 img{
-    width: 289px;
-    height: 1px;
+    width: 18.0625rem;
+    height: .0625rem;
 }
 
 .down-side{
-    margin: 3px auto;
+    margin: .1875rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .down-side img{
-    width: 180px;
+    width: 11.25rem;
 }

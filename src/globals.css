@@ -13,3 +13,9 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+@media(max-width: 767px){
+  .app{
+    height: 100vh;
+  }
+}
